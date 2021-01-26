@@ -1,0 +1,33 @@
+.main_container{
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.img_logo{
+    max-width: 500px;
+    width: 100%;
+}
+
+.btn {
+    
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    position: relative;
+    transition: transform 0.3s linear;
+}
+
+.btn_primary{
+color: #fff;
+    background-color: rgb(110, 44, 235);
+    
+}
+
+.btn:hover {
+   transform: scale(1.2);
+}
